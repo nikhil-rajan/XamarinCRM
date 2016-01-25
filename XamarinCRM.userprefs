@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="XamarinCRM.Android\XamarinCRM.Android.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (Lollipop)" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinCRM\ViewModels\Customers\CustomersViewModel.cs">
     <Files>
       <File FileName="XamarinCRM\ViewModels\Customers\CustomersViewModel.cs" Line="1" Column="1" />
       <File FileName="XamarinCRM\Views\Sales\SalesDashboardChartView.cs" Line="1" Column="1" />
@@ -9,7 +9,7 @@
       <File FileName="build.cmd" Line="1" Column="1" />
       <File FileName="build.fsx" Line="1" Column="1" />
       <File FileName="build-helpers.fsx" Line="1" Column="1" />
-      <File FileName="XamarinCRM.UITest\AppInitializer.cs" Line="27" Column="40" />
+      <File FileName="XamarinCRM.UITest\AppInitializer.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
