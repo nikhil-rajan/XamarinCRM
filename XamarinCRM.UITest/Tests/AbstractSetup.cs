@@ -34,7 +34,7 @@ namespace XamarinCRM.UITest
                         .ExitSplashScreen();
             }
 
-            //waiting for next screen to load
+            //waiting for next screen to load to 
             Thread.Sleep(TimeSpan.FromSeconds(5));
 
             if (app.Query(x => x.WebView()).Any())
