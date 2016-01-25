@@ -366,28 +366,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Pages\Customers\" />
-    <Folder Include="Pages\Products\" />
-    <Folder Include="Views\Customers\" />
-    <Folder Include="Views\Products\" />
-    <Folder Include="ViewModels\Sales\" />
-    <Folder Include="ViewModels\Customers\" />
-    <Folder Include="ViewModels\Products\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Views\Base\" />
-    <Folder Include="Statics\" />
-    <Folder Include="Config\" />
-    <Folder Include="Pages\Splash\" />
-    <Folder Include="ViewModels\Splash\" />
-    <Folder Include="ViewModels\Base\" />
-    <Folder Include="Cells\Sales\" />
-    <Folder Include="Pages\About\" />
-    <Folder Include="ViewModels\About\" />
-    <Folder Include="Models\" />
-    <Folder Include="Models\Local\" />
+    <Content Include="tools\NuGet.exe" />
+    <Content Include="tools\xpkg\xamarin-component.exe" />
   </ItemGroup>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Import Project="..\packages\Xamarin.Forms.2.0.0.6490\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.0.0.6490\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
